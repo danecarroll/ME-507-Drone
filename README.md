@@ -16,7 +16,7 @@ An autonomous drone built for the ME-507 mechanical systems design course. This 
 | `Core/`      | Source code                                  |
 | `Mechanical/`| CAD and images of physical components        |
 | `Electrical/`| Circuit and PCB design                       |
-| `docs/`      | Reports, BOM, system architecture            |
+| `docs/`      | BOM and Wiring Diagrams                      |
 
 ## Build Instructions
 - Recreate and assemble mechanical components using CAD files in `Mechanical/`

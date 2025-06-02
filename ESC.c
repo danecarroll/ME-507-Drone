@@ -35,7 +35,7 @@ void armESC(){
 
 void update_Motors(int32_t roll_effort, int32_t pitch_effort, int32_t yaw_effort, int32_t effort_set){ //Compare 3200 = 1ms (0%)    Compare 6400 = 2ms (100%)
 	A =  pitch_effort  -roll_effort  +yaw_effort*0  +effort_set*0.3 + 1200;
-	B = pitch_effort  +roll_effort  -yaw_effort*0  +effort_set*0.3 + 1200;
+	B =  pitch_effort  +roll_effort  -yaw_effort*0  +effort_set*0.3 + 1200;
 	C =  -pitch_effort  +roll_effort  +yaw_effort*0  +effort_set*0.3 + 1200;
 	D =  -pitch_effort  -roll_effort  -yaw_effort*0  +effort_set*0.3 + 1200;
 

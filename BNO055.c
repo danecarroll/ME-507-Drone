@@ -61,7 +61,7 @@ void BNO_Read(int32_t *roll, int32_t *pitch, int32_t *yaw){
     rawPitch16 = (int16_t)((eulerData[5] << 8) | eulerData[4]);
 
 
-    *yaw   =((int32_t)rawYaw16 * 1000) / 16;
+    *yaw   = ((int32_t)rawYaw16 * 1000) / 16;
     *roll  = ((int32_t)rawRoll16 * 1000) / 16;
     *pitch = ((int32_t)rawPitch16 * 1000) / 16;
 }
